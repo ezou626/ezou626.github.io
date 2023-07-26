@@ -1,0 +1,33 @@
+{
+  "name": "ezou626.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezou626/ezou626.github.io.git"
+  },
+  "keywords": [
+    "website",
+    "nextjs",
+    "javascript",
+    "html",
+    "css",
+    "react"
+  ],
+  "author": "Eric Zou",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/ezou626/ezou626.github.io/issues"
+  },
+  "homepage": "https://github.com/ezou626/ezou626.github.io#readme",
+  "dependencies": {
+    "next": "^13.4.12",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
