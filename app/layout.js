@@ -1,14 +1,18 @@
+import {Roboto} from 'next/font/google';
+
+const roboto = Roboto({
+  weight: '300',
+  subsets: ['latin']
+})
+
 export const metadata = {
-  icons: {
-    icon: "icon.svg",
-    "apple-icon": "apple-icon.png"
-  }
+  title: "Eric Zou"
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
-      <body>
+      <body className={roboto.className}>
         {children}
       </body>
     </html>
