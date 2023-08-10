@@ -12,7 +12,7 @@ return (
     <NavigationBar></NavigationBar>
     <h2>About</h2>
     <p>
-      Hi! I'm Eric Zou. I'm pursuing a BSE in Computer Science (and hopefully an Accelerated Master's in Computer Science) at the University of Pennsylvania intending to graduate in 2026. I'm interested in software development, AI/ML, and embedded systems as a means to bring cool tech to the general public.
+      Hi! I'm Eric Zou. I'm pursuing a BSE in Computer Engineering (and hopefully an Accelerated Master's in Computer Science) at the University of Pennsylvania intending to graduate in 2026. I'm interested in software development, AI/ML, and embedded systems as a means to bring cool tech to the general public.
     </p>
     <p>
       I am a student researcher at the Center for Neuroengineering and Therapeutics, using Python and data analysis to analyze fMRI signals for epilepsy diagnosis and treatment. I've also participated in hackathons to gain experience with web development. On campus, I'm a member of the Tikkun Olam Makers chapter, where I write Arduino programs and design circuits to create devices for people in need.

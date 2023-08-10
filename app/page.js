@@ -1,5 +1,3 @@
-import Link from 'next/link';
-
 import NavigationBar from '../components/navigationBar';
  
 export const metadata = {
