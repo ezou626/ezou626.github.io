@@ -11,11 +11,14 @@ const resumelink = 'https://docs.google.com/document/d/1EsoE86d8c6xYKbqX7LTHxdli
 export default function HomePage() {
 
 return (
-  <div>
+  <>
     <NavigationBar></NavigationBar>
-    <h1>Eric W Zou</h1>
-    <h2>Computer Engineering, University of Pennsylvania</h2>
-    <p>Welcome to my website!</p>
-    
-  </div>
+    <main className='min-h-screen px-10'>
+      <div className='container space-y-2 py-20'>
+        <h1 className="text-6xl font-bold">Eric Zou</h1>
+        <h2 className="text-4xl">Computer Engineering, University of Pennsylvania</h2>
+        <h3 className="text-2xl">Welcome to my website!</h3>
+      </div>
+    </main>
+  </>
 )}
