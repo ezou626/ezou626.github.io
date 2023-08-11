@@ -16,7 +16,6 @@ return (
       <div className='container space-y-2 py-32 animate-revealbody'>
         <h1 className="text-6xl font-bold">Eric Zou</h1>
         <h2 className="text-4xl">Computer Engineering, University of Pennsylvania</h2>
-        <h3 className="text-2xl">Welcome to my website!</h3>
       </div>
     </main>
     <Profiles></Profiles>

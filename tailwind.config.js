@@ -18,15 +18,15 @@ module.exports = {
       }, 
       keyframes: {
         revealbody: {
-          '0%': { opacity: '0', transform: 'translateX(-5)'},
+          '0%': { opacity: '0', transform: 'translateX(-5px)'},
           '100%': { opacity: '1' },
         },
         revealnav: {
-          '0%': { opacity: '0', transform: 'translateY(5)'},
+          '0%': { opacity: '0', transform: 'translateY(-5px)'},
           '100%': { opacity: '1' },
         },
         revealprofiles: {
-          '0%': { opacity: '0', transform: 'translateY(-5)'},
+          '0%': { opacity: '0', transform: 'translateY(5px)'},
           '100%': { opacity: '1' },
         }
       }
