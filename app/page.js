@@ -1,19 +1,21 @@
-import Head from 'next/head';
-import Link from 'next/link';
+import NavigationBar from '../components/navigationBar';
+import Profiles from '../components/profiles';
+ 
+export const metadata = {
+  title: 'Eric Zou',
+}
+
+const resumelink = 'https://docs.google.com/document/d/1EsoE86d8c6xYKbqX7LTHxdlieA_lAbjB53HeLBha318/edit?usp=sharing'
 
 export default function HomePage() {
 
 return (
-    <>
-    <Head>
-        <title>Eric W Zou</title>
-        <meta property="og:title" content="My page title" key="title" />
-    </Head>
-    <div>
-        <Link href = "about">About</Link>
-        <h1 font="Roboto">Eric W Zou</h1>
-        <h2>Computer Engineering, University of Pennsylvania</h2>
-        <h3>This website is under construction! Thanks for your patience.</h3>
-    </div>
-    </>
+  <>
+    <NavigationBar></NavigationBar>
+    <main className='min-h-fit px-10 overflow-y-clip container space-y-2 py-32 animate-revealbody'>
+        <h1 className="text-6xl font-bold">Eric Zou</h1>
+        <h2 className="text-4xl">Computer Engineering, University of Pennsylvania</h2>
+    </main>
+    <Profiles></Profiles>
+  </>
 )}
