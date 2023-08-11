@@ -10,7 +10,27 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        revealbody: 'revealbody 2s ease-in-out',
+        revealnav: 'revealnav 2s ease-in-out',
+        revealprofiles: 'revealprofiles 2s ease-in-out',
+      }, 
+      keyframes: {
+        revealbody: {
+          '0%': { opacity: '0', transform: 'translateX(-5)'},
+          '100%': { opacity: '1' },
+        },
+        revealnav: {
+          '0%': { opacity: '0', transform: 'translateY(5)'},
+          '100%': { opacity: '1' },
+        },
+        revealprofiles: {
+          '0%': { opacity: '0', transform: 'translateY(-5)'},
+          '100%': { opacity: '1' },
+        }
+      }
+    },
   },
   plugins: [],
 }
