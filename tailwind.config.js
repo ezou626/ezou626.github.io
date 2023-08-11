@@ -12,9 +12,9 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        revealbody: 'revealbody 2s ease-in-out',
-        revealnav: 'revealnav 2s ease-in-out',
-        revealprofiles: 'revealprofiles 2s ease-in-out',
+        revealbody: 'revealbody 1s ease-in-out',
+        revealnav: 'revealnav 1s ease-in-out',
+        revealprofiles: 'revealprofiles 1s ease-in-out',
       }, 
       keyframes: {
         revealbody: {

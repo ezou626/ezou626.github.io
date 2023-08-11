@@ -10,7 +10,7 @@ const resumelink = 'https://docs.google.com/document/d/1EsoE86d8c6xYKbqX7LTHxdli
 
 export default function Profiles() {
     return (
-        <div className='container px-7 py-5 text-center animate-revealprofiles'>
+        <footer className='container px-7 py-5 text-center animate-revealprofiles'>
             <ul className='space-x-14 inline-flex'>
                 <li>
                     <a href = "mailto:ezou626@seas.upenn.edu">
@@ -28,6 +28,6 @@ export default function Profiles() {
                     </a>
                 </li>
             </ul>
-        </div>
+        </footer>
     )
 }
