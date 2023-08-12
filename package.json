@@ -2,9 +2,8 @@
   "name": "ezou626.github.io",
   "version": "1.0.0",
   "description": "Personal Website",
-  "main": "server.js",
+  "main": null,
   "scripts": {
-    "test": "test",
     "dev": "next dev"
   },
   "repository": {
