@@ -1,9 +1,5 @@
 import NavigationBar from '../components/navigationBar';
 import Profiles from '../components/profiles';
- 
-export const metadata = {
-  title: 'Eric Zou',
-}
 
 export default function HomePage() {
 
