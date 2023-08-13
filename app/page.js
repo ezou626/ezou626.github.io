@@ -5,14 +5,12 @@ export const metadata = {
   title: 'Eric Zou',
 }
 
-const resumelink = 'https://docs.google.com/document/d/1EsoE86d8c6xYKbqX7LTHxdlieA_lAbjB53HeLBha318/edit?usp=sharing'
-
 export default function HomePage() {
 
 return (
   <>
     <NavigationBar></NavigationBar>
-    <main className='h-full mx-auto px-10 overflow-y-clip space-y-5 py-32 animate-revealbody'>
+    <main className='h-full px-10 overflow-y-clip space-y-5 py-32 animate-revealbody mx-auto max-w-5xl'>
         <h1 className="text-6xl font-bold">Eric Zou</h1>
         <h2 className="text-4xl">Computer Engineering, University of Pennsylvania</h2>
     </main>
