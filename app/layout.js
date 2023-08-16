@@ -22,14 +22,19 @@ export const metadata = {
     address: false,
     telephone: false,
   },
-  icons: []
+  icons: {
+    other: [
+      { rel: '/mask-icon' },
+      { url: '/mask-icon.svg', type: 'image/svg+xml'},
+    ]
+  }
 }
 
 export default function RootLayout({ children }) {
   return (
     <html lang='en'>
       <head>
-        <link rel="mask-icon" href='/icon.svg' color="#FFFFFF"></link>
+        <link rel="mask-icon" href='/mask-icon' color="#000000"></link>
       </head>
       <body className={roboto.className}>
         {children}
