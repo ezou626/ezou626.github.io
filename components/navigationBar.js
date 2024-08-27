@@ -3,7 +3,7 @@ Navigation bar for website
 */
 import UnderlineLink from './underlineLink';
 
-const resumelink = 'https://docs.google.com/document/d/1EsoE86d8c6xYKbqX7LTHxdlieA_lAbjB53HeLBha318/edit?usp=sharing'
+const resumelink = 'https://drive.google.com/file/d/1LGG-uQAHkdTudSQczu1RUTNUTtkm9aKM/view?usp=sharing'
 
 export default function NavigationBar() {
     return (
