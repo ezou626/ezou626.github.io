@@ -11,6 +11,7 @@ export default function NavigationBar() {
             <ul className='float-right space-x-10 flex'>
                 <li><UnderlineLink href = '/'>Home</UnderlineLink></li>
                 <li><UnderlineLink href = 'about'>About</UnderlineLink></li>
+                <li><UnderlineLink href = 'projects'>Projects</UnderlineLink></li>
                 <li><UnderlineLink href = {resumelink}>Resumé</UnderlineLink></li>
             </ul>
         </nav>
