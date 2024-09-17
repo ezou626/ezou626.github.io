@@ -9,7 +9,8 @@ const projects = [
             'website': 'https://google.com',
             'github': 'https://github.com',
             'demo': 'https://devpost.com'
-        }
+        },
+        'enable': false,
     },
 ];
   
