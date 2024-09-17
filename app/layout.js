@@ -1,4 +1,6 @@
 import {Roboto} from 'next/font/google';
+import NavigationBar from '../components/navigationBar';
+import Profiles from '../components/profiles';
 
 import './globals.css'
 
@@ -36,7 +38,9 @@ export default function RootLayout({ children }) {
       <head>
       </head>
       <body className={roboto.className}>
+        <NavigationBar></NavigationBar>
         {children}
+        <Profiles></Profiles>
       </body>
     </html>
     );
