@@ -6,10 +6,11 @@ const projects = [
         ],
         'desc': 'A really cool project',
         'links': {
-            'website': '',
-            'github': ''
+            'website': 'https://google.com',
+            'github': 'https://github.com',
+            'demo': 'https://devpost.com'
         }
     },
-]
+];
   
-  export default projects;
+export default projects;
