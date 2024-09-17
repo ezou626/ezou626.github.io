@@ -1,5 +1,5 @@
 /*
-Navigation bar for website
+Profile redirects for website
 */
 import Image from 'next/image';
 import githubIcon from '../public/github-icon.svg';
