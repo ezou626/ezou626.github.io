@@ -13,6 +13,19 @@ const projects = [
         'enable': false,
     },
     {
+        'title': 'Blip',
+        'tools': [
+            'React', 'Next.js', 'Convex API', 'Cerebras API (Llama-3.1)', 'TypeScript', 'OpenAI TTS API', 'Dall-E API'
+        ],
+        'desc': 'A platform to generate and listen to short-form audio content (PennApps XXV Best Entertainment Hack)',
+        'links': {
+            'website': 'https://blipapp.vercel.app',
+            'github': 'https://github.com/dzhan111/blipapp',
+            'demo': 'https://devpost.com/software/blip-w5slqn'
+        },
+        'enable': true,
+    },
+    {
         'title': 'YourKB',
         'tools': [
             'React', 'Next.js', 'Supabase', 'Tailwind CSS', 'TypeScript'
@@ -22,6 +35,19 @@ const projects = [
             'website': 'https://yourkb.vercel.app',
             'github': 'https://github.com/ezou626/yourkb',
             'demo': null
+        },
+        'enable': true,
+    },
+    {
+        'title': 'TimeSink',
+        'tools': [
+            'C', 'C++', 'Microcontroller', 'HTTP'
+        ],
+        'desc': '3-in-1 soap dispenser, clock, and nightlight',
+        'links': {
+            'website': 'https://ese3500.github.io/final-project-timesink',
+            'github': 'https://github.com/ese3500/final-project-timesink',
+            'demo': 'https://www.youtube.com/watch?v=FBzL9NcnUS8&feature=youtu.be'
         },
         'enable': true,
     },
@@ -41,9 +67,9 @@ const projects = [
     {
         'title': 'WalkWithMe',
         'tools': [
-            'React', 'Google Maps API', 'HTML', 'CSS', 'JavaScript', 'Go', 'Firebase'
+            'React', 'Google Maps API', 'HTML', 'CSS', 'JavaScript', 'Go', 'Firebase', 'Sonr'
         ],
-        'desc': 'Find people to walk together with',
+        'desc': 'Find people to walk together with (PennApps XXIII Best Blockchain Entertainment Hack)',
         'links': {
             'website': null,
             'github': 'https://github.com/ezou626/coffee-web-blocker',
