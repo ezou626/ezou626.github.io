@@ -2,7 +2,7 @@
   "name": "ezou626.github.io",
   "version": "1.0.0",
   "description": "Personal Website",
-  "main": null,
+  "main": "index.js",
   "scripts": {
     "dev": "next dev"
   },
