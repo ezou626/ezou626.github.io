@@ -13,7 +13,7 @@ export default function ProjectBoard({ projects }) {
             <div key={index} className="shadow-md rounded-lg p-6">
               <h2 className="text-2xl font-bold mb-4">{project.title}</h2>
               <p className="text-gray-500 mb-4">{project.desc}</p>
-              {/* <div className="flex space-x-4 justify-center mb-4">
+              <div className="flex space-x-4 justify-center mb-4">
                 {Object.keys(project.links)
                   .filter((key) => project.links[key])
                   .map((key) => (
@@ -27,9 +27,12 @@ export default function ProjectBoard({ projects }) {
                       {key.charAt(0).toUpperCase() + key.slice(1)}
                     </a>
                   ))}
-              </div> */}
+              </div>
               <div>
-                {project.topics.map((tool, toolIndex) => (
+                {(project.topics && project.topics.length > 0
+                  ? project.topics
+                  : project.tools
+                ).map((tool, toolIndex) => (
                   <span
                     key={toolIndex}
                     className="inline-block bg-gray-200 text-gray-800 text-sm font-semibold mr-2 mb-2 px-3 py-1 rounded"

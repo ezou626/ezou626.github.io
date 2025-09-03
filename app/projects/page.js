@@ -6,17 +6,6 @@ export const metadata = {
 
 const projects = [
   {
-    title: "Demo Project",
-    tools: ["React", "Next.js", "Tailwind CSS"],
-    desc: "A really cool project",
-    links: {
-      website: "https://google.com",
-      github: "https://github.com",
-      demo: "https://devpost.com",
-    },
-    enable: false,
-  },
-  {
     title: "Blip",
     tools: [
       "React",
@@ -111,31 +100,29 @@ const projects = [
 ];
 
 async function getTopics(project) {
-  try {
-    const githubLink = project.links["github"];
-    if (!githubLink) {
-      return [];
-    }
-
-    // replace github.com with api.github.com/repos
-
-    const repoPath = githubLink.replace("github.com/", "api.github.com/repos/");
-
-    const response = await fetch(`${repoPath}/topics`, {
-      headers: {
-        Accept: "application/vnd.github.mercy-preview+json",
-      },
-    });
-
-    if (!response.ok) {
-      console.error("Failed to fetch topics:", response.statusText);
-      return [];
-    }
-
-    const data = await response.json();
-  } catch {
+  const githubLink = project.links["github"];
+  if (!githubLink) {
     return [];
   }
+
+  // replace github.com with api.github.com/repos
+
+  const repoPath = githubLink.replace("github.com/", "api.github.com/repos/");
+
+  console.log(`${repoPath}/topics`);
+
+  const response = await fetch(`${repoPath}/topics`, {
+    headers: {
+      Accept: "application/vnd.github.mercy-preview+json",
+    },
+  });
+
+  if (!response.ok) {
+    console.error("Failed to fetch topics:", response.statusText);
+    return [];
+  }
+
+  const data = await response.json();
   return data.names || [];
 }
 
