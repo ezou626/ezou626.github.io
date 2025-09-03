@@ -9,27 +9,16 @@ const roboto = Roboto({
   subsets: ["latin"],
 });
 
+const DEFAULT_URL = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : process.env.GITHUB_URL
+  ? `https://${process.env.GITHUB_URL}`
+  : "http://localhost:3000";
+
 export const metadata = {
+  metadataBase: new URL(DEFAULT_URL),
   title: "Eric Zou",
   description: "My Personal Website",
-  generator: "Next.js",
-  applicationName: "Eric Zou's Personal Website",
-  referrer: "origin-when-cross-origin",
-  keywords: ["Next.js", "React", "JavaScript", "Website"],
-  colorScheme: "light",
-  creator: "Eric Zou",
-  publisher: "Github",
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
-  icons: {
-    other: [
-      { rel: "mask-icon" },
-      { url: "/safari-pinned-tab.svg", type: "image/svg+xml" },
-    ],
-  },
 };
 
 export default function RootLayout({ children }) {
