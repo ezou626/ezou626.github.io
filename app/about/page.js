@@ -5,8 +5,8 @@ export const metadata = {
 };
 
 const ABOUT = [
-  `Hi! I'm Eric. I'm a junior pursuing a BSE (and hopefully a submat) in Computer Science at UPenn graduating in
-    May of 2026. I'm interested in using SWE and AI/ML to bring cool tech to the public.`,
+  `Hi! I'm Eric. I'm a senior pursuing a MS/BSE in Computer Science at UPenn, graduating
+    May 2026. I'm interested in using SWE and AI/ML to bring cool tech to the public.`,
 
   `So far, I've dabbled in research at the Center for Neuroengineering and Therapeutics at UPenn,
     digitization and databases at Kyowa Kirin, and site reliability engineering at a variety of organizations.
