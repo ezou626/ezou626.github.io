@@ -12,7 +12,7 @@ const roboto = Roboto({
 const DEFAULT_URL = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : process.env.GITHUB_URL
-  ? `https://${process.env.GITHUB_URL}`
+  ? `https://${process.env.NEXT_PUBLIC_GITHUB_URL}`
   : "http://localhost:3000";
 
 export const metadata = {

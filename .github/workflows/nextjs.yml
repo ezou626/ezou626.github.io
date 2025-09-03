@@ -28,6 +28,8 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_GITHUB_URL: ezou626.github.io
     steps:
       - name: Checkout
         uses: actions/checkout@v3
