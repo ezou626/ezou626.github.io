@@ -26,14 +26,14 @@ const PROFILE_CONFIG = [
 
 export default function Profiles() {
   return (
-    <footer className="px-7 py-5 text-center animate-revealprofiles">
-      <ul className="space-x-14 inline-flex">
+    <footer className="pb-8 md:pb-16 lg:pb-24 text-center animate-revealprofiles">
+      <ul className="space-x-8 md:space-x-24 inline-flex">
         {PROFILE_CONFIG.map((profile) => (
           <li key={profile.name}>
             <a href={profile.url}>
               <Image
                 src={profile.icon}
-                className="w-8"
+                className="w-8 md:w-12"
                 alt={profile.name}
               ></Image>
             </a>

@@ -4,7 +4,7 @@ export const metadata = {
   title: "Projects",
 };
 
-const projects = [
+const PROJECTS = [
   {
     title: "Blip",
     tools: [
@@ -128,7 +128,7 @@ async function getTopics(project) {
 
 export default async function ProjectPage() {
   const projectsWithTopics = await Promise.all(
-    projects.map(async (project) => {
+    PROJECTS.map(async (project) => {
       const topics = await getTopics(project);
       return { ...project, topics };
     })

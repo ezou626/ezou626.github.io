@@ -24,9 +24,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body className={`${roboto.className} min-h-screen flex flex-col`}>
         <NavigationBar />
-        {children}
+        <div className="flex-grow flex flex-col items-center justify-center">
+          {children}
+        </div>
         <Profiles />
       </body>
     </html>
