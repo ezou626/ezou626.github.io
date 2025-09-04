@@ -3,8 +3,8 @@ Navigation bar for website
 */
 import UnderlineLink from "./underlineLink";
 
-const resumelink =
-  "https://drive.google.com/file/d/1aTGn0ECjPcYAcR6y2Y736v4gRcoy6HJq/view?usp=sharing";
+const RESUME_LINK =
+  "https://drive.google.com/file/d/1eEnvj-q_kCRTWS1blcTyTpdapHCetCea/view?usp=sharing";
 
 export default function NavigationBar() {
   return (
@@ -20,7 +20,7 @@ export default function NavigationBar() {
           <UnderlineLink href="projects">Projects</UnderlineLink>
         </li>
         <li>
-          <UnderlineLink href={resumelink}>Resumé</UnderlineLink>
+          <UnderlineLink href={RESUME_LINK}>Resumé</UnderlineLink>
         </li>
       </ul>
     </nav>
