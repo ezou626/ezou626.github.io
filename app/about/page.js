@@ -9,7 +9,7 @@ const ABOUT = [
     May 2026. I'm interested in using SWE and AI/ML to bring cool tech to the public.`,
 
   `So far, I've dabbled in research at the Center for Neuroengineering and Therapeutics at UPenn,
-    digitization and databases at Kyowa Kirin, and site reliability engineering at a variety of organizations.
+    digitization and databases at Kyowa Kirin, and site reliability engineering at Meta.
     I'm comfortable with data engineering tasks using Python, analysis libraries like numpy and pandas, SQL,
     web development with modern frameworks like React, Next.js, and FastAPI.`,
 
