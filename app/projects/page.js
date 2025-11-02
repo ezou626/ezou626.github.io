@@ -36,6 +36,17 @@ const PROJECTS = [
     enable: true,
   },
   {
+    title: "DataLabeler",
+    tools: ["React", "Vite", "Supabase", "Tailwind CSS", "Llama-3.1b"],
+    desc: "Collect dense captions for image data via crowdsourcing",
+    links: {
+      website: null,
+      github: "https://github.com/dzhan111/DataLabeler",
+      demo: "https://www.youtube.com/watch?v=LLBAH43Sk9o",
+    },
+    enable: true,
+  },
+  {
     title: "TimeSink",
     tools: ["C", "C++", "Microcontroller", "HTTP"],
     desc: "3-in-1 soap dispenser, clock, and nightlight",
