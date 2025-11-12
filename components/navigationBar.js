@@ -4,7 +4,7 @@ Navigation bar for website
 import UnderlineLink from "./underlineLink";
 
 const RESUME_LINK =
-  "https://drive.google.com/file/d/1eEnvj-q_kCRTWS1blcTyTpdapHCetCea/view?usp=sharing";
+  "https://drive.google.com/file/d/1rgrdRB1p9u4qlLLY-Mc-9ZqsryllU9BP/view?usp=sharing";
 
 export default function NavigationBar() {
   return (
